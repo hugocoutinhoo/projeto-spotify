@@ -6,6 +6,7 @@
 /*Layout*/
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -38,11 +39,10 @@ nav.navbar-transparente {
     background: white;
     margin: 12px 15px;
 }
-/*--Capa*/
+/*--------------------------------------Capa*/
 .capa {
     text-align: center;
 }
-
 .btn-custom {
     color: white;
     border-radius: 500px;
@@ -52,7 +52,6 @@ nav.navbar-transparente {
     transition: background 0.4s, color 0,4s;
     padding: 10px 20px;
 }
-
 .btn-roxo {
     background: #7c26f8;
 }
@@ -67,12 +66,55 @@ nav.navbar-transparente {
     background-color: white;
     color: black;
 }
+
+/*----------------Estrutura de conteúdos----------*/
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos {
+    background: white;
+    
+}
+#servicos h2, h3 {
+    color: #7c25f8;
+}
+
+#recursos h2, p {
+    color: white;
+}
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
 /*--Tipografia*/
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: #fff;
+}
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 
